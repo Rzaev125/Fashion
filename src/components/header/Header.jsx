@@ -11,7 +11,15 @@ export default function Header() {
                         <img src={logo} alt="Logo" />
                         <span>Fashion</span>
                     </div>
-                    <div className="header_nav">NAV</div>
+                    <nav className="header_nav">
+                        <ul>
+                            <li><a href='#!'>CATALOGUE</a></li>
+                            <li><a href='#!'>FASHION</a></li>
+                            <li><a href='#!'>FAVOURITE</a></li>
+                            <li><a href='#!'>LIFESTYLE</a></li>
+                            <li><a href='#!' className='header_nav-btn'>SIGN UP</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </header>
