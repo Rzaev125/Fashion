@@ -5,6 +5,7 @@
 
 .brands_list {
     display: flex;
+    justify-content: center;
     column-gap: 120px;
     mix-blend-mode: multiply;
 }
